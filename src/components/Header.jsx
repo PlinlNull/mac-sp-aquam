@@ -12,7 +12,6 @@ export default function Header() {
       <div className="header_container">
         <h1 className="header_ttl"><span>MAC SP</span>AQUAM 正規代理店</h1>
         
-        {/* Nút Hamburger. Sự kiện onClick thay thế cho $(document).on('click', '.navigation'...) */}
         <div 
           className={`navigation ${isNavOpen ? 'active' : ''}`} 
           onClick={toggleNav}
@@ -20,7 +19,6 @@ export default function Header() {
           <span></span><span></span><span></span>
         </div>
         
-        {/* Thanh điều hướng */}
         <nav className={isNavOpen ? 'active' : ''}>
           <ul className="navlist">
             <li><a href="#" title="TOP">TOP</a></li>

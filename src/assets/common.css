@@ -775,36 +775,11 @@ nav {
   cursor: pointer;
   font-weight: var(--font-weight7);
   padding: 2rem 3.5rem 2rem 6.8rem;
-  display: flex;              
-  justify-content: space-between; 
-  align-items: center;         
-  cursor: pointer;
 }
-
 
 .faq_quest_text {
   flex: 1;         
   margin-right: 15px;
-}
-
-
-.faq_icon {
-  display: flex;
-  align-items: center;
-  transition: transform 0.3s ease; 
-  color: var(--color-blue);
-}
-
-
-.faq_quest.active .faq_icon {
-  transform: rotate(180deg);
-}
-
-.faq_icon svg {
-    stroke: currentColor; 
-    background-color: var(--color-white);
-    border-radius: 50%;
-    padding: 8px;
 }
 
 .faq_anw {
