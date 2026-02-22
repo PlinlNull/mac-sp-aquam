@@ -1,0 +1,418 @@
+@media (max-width: 1200px) {
+	.header_ttl {
+		font-size: 18px;
+		min-width: 174px;
+	}
+	.header_ttl span {
+		font-size: 40px;
+	}
+	nav {
+		padding-right: 0;
+		max-width: calc(98% - 174px);
+	}
+	.point_post {
+		gap: 2rem;
+	}
+	.point_item {
+		width: calc(50% - 1rem);
+	}
+	.point_sttl,
+	.about_des {
+		font-size: 25px;
+	}
+	.point_des,
+	.cmn_des,
+	.product_des,
+	.service_item_lbl,
+	.merit_item,
+	.achievements_des {
+		font-size: 20px;
+	}
+	.product_thumb {
+		width: 42%;
+	}
+	.product_info {
+		width: 55%;
+	}
+	.service_ttl {
+		font-size: 35px;
+	}
+	.service_item_txt,
+	.service_cost_note {
+		font-size: 15px;
+	}
+	.service_about_info,
+	.service_cost_info,
+	.product_note,
+	.faq_quest, 
+	.faq_anw {
+		font-size: 18px;
+	}
+}
+@media (max-width: 1024px) {
+	.header_container {
+		flex-wrap: wrap;
+	}
+	.navigation {
+		display: inline-block;
+	}
+	.navigation.active span:nth-of-type(1) {
+		transform: rotate(45deg) translate(9.5px, 10px);
+	}
+	.navigation.active span:nth-of-type(2) {
+		display: none;
+	}
+	.navigation.active span:nth-of-type(3) {
+		transform: rotate(-45deg) translate(9px, -10px);
+	}
+	nav {
+		display: none;
+		width: 100%;
+		max-width: 100%;
+		padding-top: 1rem;
+	}
+	nav.active {
+		display: block;
+	}
+	.navlist {
+		flex-direction: column;
+		display: flex;
+		gap: .7rem;
+	}
+	.navlist li {
+		width: 100%;
+	}
+	.navlist li a {
+		display: block;
+		text-align: center;
+	}
+	.banner_container {
+		gap: 2rem;
+	}
+	.des_style {
+		font-size: 30px;
+	}
+	.point_item,
+	.service_item,
+	.service_about_chart,
+	.service_about_info,
+	.service_cost_thumb,
+	.service_cost_info,
+	.contact_lst .ctbtn1,
+	.contact_lst .ctbtn2,
+	.ftlogo,
+	.ftinfo {
+		width: 100%;
+	}
+	.product_box {
+		padding-top: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.product_thumb {
+		width: 35%;
+	}
+	.product_info {
+		width: 65%;
+	}
+	.product_thumb img {
+		width: 70%;
+	}
+	.cmn_bttl {
+		font-size: clamp(55px, 6.5vw, 115px);
+	}
+	.service_lst,
+	.service_about,
+	.service_cost,
+	.contact_lst,
+	.ftrow {
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.service_cost_thumb {
+		border-right: none;
+	}
+	.merit_item,
+	.faq_quest,
+	.faq_anw {
+		font-size: 16px;
+	}
+	.merit_nav {
+		padding-left: .5rem;
+		padding-right: .5rem;
+	}
+	.contact_lst .ctbtn1,
+	.contact_lst .ctbtn2 {
+		min-height: 150px;
+	}
+	.ftlogo_item {
+		margin-right: auto;
+	}
+}
+@media (max-width: 767px) {
+	.header_container {
+		padding: .7rem 15px .5rem;
+	}
+	.banner_thumb {
+		width: max(16%, 80px);
+	}
+	.banner_ttl {
+		font-size: clamp(25px, 7.4vw, 128px);
+		padding-bottom: 1rem;
+	}
+	.banner_des {
+		font-size: clamp(20px, 3.62vw, 63px);
+	}
+	.cmn_section {
+		padding-top: 2rem;
+	}
+	.cmn_ttl {
+		font-size: 35px;
+		padding-bottom: .5rem;
+	}
+	.cmn_lbl {
+		font-size: 20px;
+	}
+	.vison_wrap {
+		padding-top: 4rem;
+	}
+	.cmn_des,
+	.service_item_lbl,
+	.achievements_des,
+	.des_style,
+	.about_des,
+	.point_sttl {
+		font-size: 18px;
+	}
+	.cmn_des p {
+		margin-bottom: 1.5rem;
+	}
+	.vison_thumb {
+		margin-top: -1rem;
+	}
+	.mechanism,
+	.point_box {
+		padding-bottom: 2rem;
+	}
+	.mechanism .container,
+	.product_container {
+		padding-top: 0;
+	}
+	.mechanism_box,
+	.point_box,
+	.point_post {
+		padding-top: 1.5rem;
+	}
+	.point_item {
+		padding: 0 1rem;
+		min-height: auto !important;
+	}
+	.point_info_box {
+		padding-bottom: 1rem;
+	}
+	.point_info {
+		width: 80%;
+	}
+	.point_des {
+		font-size: 14px;
+	}
+	.about {
+		padding: 5rem 0;
+	}
+	.about_container {
+		position: relative;
+		padding: 0 15px;
+		z-index: 2;
+	}
+	.about_bg {
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	.about_bg img {
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		object-fit: cover;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+	}
+	.product_box {
+		flex-direction: column-reverse;
+		padding-left: 0;
+		padding-right: 0;
+		gap: 2rem;
+	}
+	.product_box_style {
+		border-radius: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-bottom: 3rem;
+	}
+	.product_thumb,
+	.product_info {
+		width: 100%;
+	}
+	.product_info {
+		padding-top: 0;
+	}
+	.product_ttl {
+		border-radius: .7rem;
+		font-size: clamp(18px, 1.6vw, 28px);
+	}
+	.product_des {
+		padding-bottom: 0;
+		padding-top: 1rem;
+		font-size: 16px;
+	}
+	.service {
+		padding-bottom: 3rem;
+		padding-top: 9rem;
+	}
+	.cmn_bttl {
+		font-size: clamp(25px, 6.5vw, 115px);
+	}
+	.service_lst {
+		padding-bottom: 2rem;
+	}
+	.service_box {
+		border-radius: 1rem;
+		margin-bottom: 2rem;
+		padding: 1.5rem 1rem;
+	}
+	.service_ttl {
+		font-size: 20px;
+		padding-bottom: 0;
+	}
+	.service_item {
+		border-radius: 1rem;
+		padding: 1rem;
+	}
+	.service_about {
+		padding: 0;
+	}
+	.product_note {
+		margin-top: 1rem;
+	}
+	.merit {
+		padding-bottom: 2rem;
+	}
+	.merit_ttl,
+	.faq_lst {
+		padding-top: 1.5rem;
+	}
+	.merit_content {
+		margin-top: 2rem;
+		overflow-x: scroll;
+		padding: 1rem 1rem 1rem 0;
+	}
+	.merit_lst {
+		min-width: 155.5vw;
+	}
+	.merit_item {
+		font-size: 16px;
+	}
+	.merit_nav {
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+	}
+	.merit_col {
+		padding: 1rem .5rem;
+	}
+	.merit_content .merit_lst:nth-of-type(2) {
+		border-radius: 0 0 1rem 1rem;
+	}
+	.merit_content .merit_lst:nth-of-type(1) .merit_item:nth-of-type(1) .merit_nav {
+		border-radius: 1rem 0 0;
+	}
+	.merit_content .merit_lst:nth-of-type(1) .merit_item:nth-of-type(1) .merit_info {
+		border-radius: 1rem 1rem 0 0;
+	}
+	.merit_item:last-child .merit_nav {
+		border-radius: 0 0 0 1rem;
+	}
+	.achievements,
+	.faq {
+		padding: 2rem 0;
+	}
+	.achievements_content {
+		border-radius: 1rem;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+	.achievements_thumb,
+	.contact_lst {
+		padding-top: 1.5rem;
+	}
+
+	.faq_item {
+		margin-bottom: 1rem;
+	}
+
+	.faq_quest, .faq_anw {
+		font-size: 14px;
+	}
+
+	.faq_quest {
+		padding: 1rem 3rem;
+	}
+
+	.faq_quest::before, .faq_anw::before {
+		font-size: 30px;
+		left: .6rem;
+		line-height: 1;
+	}
+
+	.faq_quest::before {
+		top: 22%;
+	}
+
+	.faq_quest::after {
+		height: 25px;
+		width: 25px;
+		right: .6rem;
+	}
+
+	.faq_anw {
+		padding: 1rem 1rem 1rem 3rem;
+	}
+
+	.contact_lst .ctbtn1, .contact_lst .ctbtn2 {
+		min-height: 110px;
+	}
+
+	.contact_lst .ctbtn1 {
+		font-size: 20px;
+	}
+
+	.contact_lst .ctbtn2 {
+		font-size: 18px;
+	}
+
+	.ctbtn2 .ct_lbl {
+		font-size: 22px;
+	}
+
+	.contact {
+		padding-bottom: 3rem;
+	}
+
+	footer {
+		font-size: 16px;
+		padding-top: 3rem;
+	}
+
+	.ftrow {
+		padding-bottom: 2rem;
+	}
+
+	.copyright {
+		font-size: 12px;
+	}
+
+
+}
