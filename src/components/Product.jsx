@@ -1,4 +1,5 @@
 import React from "react";
+import product1 from "../assets/images/product1.png";
 
 export default function TenCuaComponent() {
   return (
@@ -9,7 +10,7 @@ export default function TenCuaComponent() {
         <div className="product_box">
           <div className="product_thumb">
             <img
-              src="./images/product1.png"
+              src={product1}
               alt="エアドリップウォーター AQ-20XR"
               title="エアドリップウォーター AQ-20XR"
             />

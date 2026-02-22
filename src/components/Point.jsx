@@ -1,4 +1,8 @@
 import React from "react";
+import iconPoint1 from "../assets/images/icon-point1.png";
+import iconPoint2 from "../assets/images/icon-point2.png";
+import iconPoint3 from "../assets/images/icon-point3.png";
+import iconPoint4 from "../assets/images/icon-point4.png";
 
 export default function TenCuaComponent() {
   return (
@@ -10,7 +14,7 @@ export default function TenCuaComponent() {
 				<div className="point cmn_des text-center">「MADE IN JAPAN」水の美味しさ、安心安全を高品質に保つ特許技術、<br/>フェーズフリーな災害対策、水資源不足に対するSDGsソリューションの技術革新</div>
 				<div className="point_post">
 					<div className="point_item">
-						<div className="point_icon"><div className="point_icon_box"><img src="images/icon-point1.png" alt="美味しさ" width="79" title="美味しさ"/></div></div>
+						<div className="point_icon"><div className="point_icon_box"><img src={iconPoint1} alt="美味しさ" width="79" title="美味しさ"/></div></div>
 						<div className="point_info">
 							<div className="point_info_box">
 								<h2 className="point_sttl">美味しさ</h2>
@@ -19,7 +23,7 @@ export default function TenCuaComponent() {
 						</div>
 					</div>
 					<div className="point_item">
-						<div className="point_icon"><div className="point_icon_box"><img src="images/icon-point2.png" alt="特許技術" width="101" title="特許技術"/></div></div>
+						<div className="point_icon"><div className="point_icon_box"><img src={iconPoint2} alt="特許技術" width="101" title="特許技術"/></div></div>
 						<div className="point_info">
 							<div className="point_info_box">
 								<h2 className="point_sttl">特許技術*</h2>
@@ -29,7 +33,7 @@ export default function TenCuaComponent() {
 						</div>
 					</div>
 					<div className="point_item">
-						<div className="point_icon"><div className="point_icon_box"><img src="images/icon-point3.png" alt="フェーズフリーな災害対策" width="92" title="フェーズフリーな災害対策"/></div></div>
+						<div className="point_icon"><div className="point_icon_box"><img src={iconPoint3} alt="フェーズフリーな災害対策" width="92" title="フェーズフリーな災害対策"/></div></div>
 						<div className="point_info">
 							<div className="point_info_box">
 								<h2 className="point_sttl">フェーズフリーな災害対策</h2>
@@ -38,7 +42,7 @@ export default function TenCuaComponent() {
 						</div>
 					</div>
 					<div className="point_item">
-						<div className="point_icon"><div className="point_icon_box"><img src="images/icon-point4.png" alt="SDGsな技術革新" width="110" title="SDGsな技術革新"/></div></div>
+						<div className="point_icon"><div className="point_icon_box"><img src={iconPoint4} alt="SDGsな技術革新" width="110" title="SDGsな技術革新"/></div></div>
 						<div className="point_info">
 							<div className="point_info_box">
 								<h2 className="point_sttl">SDGsな技術革新</h2>

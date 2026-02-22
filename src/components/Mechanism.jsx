@@ -1,5 +1,5 @@
 import React from "react";
-
+import mechanism from "../assets/images/mechanism.jpg";
 export default function TenCuaComponent() {
   return (
     <section className="cmn_section mechanism">
@@ -10,7 +10,7 @@ export default function TenCuaComponent() {
           <div className="mechanism_thumb">
             <img
               className="w-100"
-              src="./images/mechanism.jpg"
+              src={mechanism}
               alt="MECHANISM"
               title="MECHANISM"
             />

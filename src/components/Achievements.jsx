@@ -1,4 +1,5 @@
 import React from "react";
+import archivement from "../assets/images/archivement.jpg";
 
 export default function TenCuaComponent() {
   return (
@@ -22,7 +23,7 @@ export default function TenCuaComponent() {
           <div className="achievements_thumb">
             <img
               className="w-100"
-              src="./images/archivement.jpg"
+              src={archivement}
               alt="ACHIEVEMENTS"
               title="ACHIEVEMENTS"
             />

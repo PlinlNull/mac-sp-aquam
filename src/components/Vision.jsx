@@ -1,4 +1,5 @@
 import React from "react";
+import visonSign from "../assets/images/vison-sign.png";
 
 export default function TenCuaComponent() {
   return (
@@ -40,7 +41,7 @@ export default function TenCuaComponent() {
           <div class="vison_thumb">
             <img
               class="w-100"
-              src="./images/vison-sign.png"
+              src={visonSign}
               alt="water from air"
               title="water from air"
             />

@@ -1,4 +1,7 @@
 import React from "react";
+import product3 from "../assets/images/product3.png";
+import product4 from "../assets/images/product4.png";
+
 
 export default function TenCuaComponent() {
   return (
@@ -26,7 +29,7 @@ export default function TenCuaComponent() {
                     <div className="merit_box_review">
                       <div className="merit_box_thumb">
                         <img
-                          src="./images/product3.png"
+                          src={product3}
                           alt="従来型ウォーターサーバー"
                           title="従来型ウォーターサーバー"
                         />
@@ -45,7 +48,7 @@ export default function TenCuaComponent() {
                     <div className="merit_box_review">
                       <div className="merit_box_thumb">
                         <img
-                          src="images/product4.png"
+                          src={product4}
                           alt="Air Drip Water"
                           title="Air Drip Water"
                         />

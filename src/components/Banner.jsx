@@ -1,4 +1,5 @@
 import React from "react";
+import banner from "../assets/images/banner.jpg";
 
 export default function TenCuaComponent() {
   return (
@@ -21,7 +22,7 @@ export default function TenCuaComponent() {
       <div className="banner_background">
         <img
           className="w-100"
-          src="./images/banner.jpg"
+          src={banner}
           alt="Air Drip Water"
           title="Air Drip Water"
         />

@@ -1,4 +1,7 @@
 import React from "react";
+import chart from "../assets/images/chart.png";
+import iconCoin from "../assets/images/icon-coin.png";
+import product2 from "../assets/images/product2.png";
 
 export default function Service() {
   return (
@@ -30,7 +33,7 @@ export default function Service() {
           <div className="service_ttl">製水量</div>
           <div className="service_about">
             <div className="service_about_chart">
-              <img src="./images/chart.png" alt="製水量" title="製水量" />
+              <img src={chart} alt="製水量" title="製水量" />
             </div>
             <div className="service_about_info">
               <p>
@@ -62,7 +65,7 @@ export default function Service() {
           <div className="service_cost">
             <div className="service_cost_thumb">
               <img
-                src="./images/icon-coin.png"
+                src={iconCoin}
                 alt="コストメリット"
                 title="コストメリット"
               />
@@ -92,7 +95,7 @@ export default function Service() {
         <div className="product_box product_box_style">
           <div className="product_thumb">
             <img
-              src="./images/product2.png"
+              src={product2}
               alt="エアドリップウォーター AQ-20X"
               title="エアドリップウォーター AQ-20X"
             />

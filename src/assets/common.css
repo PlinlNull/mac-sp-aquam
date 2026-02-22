@@ -296,7 +296,7 @@ nav {
 }
 
 .vison_wrap {
-  background: url(../images/bg1.jpg) top center no-repeat;
+  background: url(images/bg1.jpg) top center no-repeat;
   background-size: 100% auto;
   padding-top: 13rem;
   padding-bottom: .5rem;
@@ -506,7 +506,7 @@ nav {
 }
 
 .service {
-  background: url(../../public/images/background-product.jpg) top center no-repeat, linear-gradient(90deg, rgba(198, 230, 244, 1) 0%, rgba(137, 195, 223, 1) 100%);
+  background: url(images/background-product.jpg) top center no-repeat, linear-gradient(90deg, rgba(198, 230, 244, 1) 0%, rgba(137, 195, 223, 1) 100%);
   background-size: 100% auto;
   margin-top: -7.8rem;
   padding-bottom: 14rem;
@@ -722,7 +722,7 @@ nav {
 }
 
 .achievements {
-  background: url(../../public/images/background3.jpg) top center no-repeat;
+  background: url(images/background3.jpg) top center no-repeat;
   background-size: cover;
   padding: 7.2rem 15px 9rem;
 }
@@ -837,7 +837,7 @@ nav {
 }
 
 .faq_quest::after {
-  background: url(../images/icon-down.png) center no-repeat;
+  background: url(images/icon-down.png) center no-repeat;
   background-size: contain;
   content: "";
   display: inline-block;
@@ -850,7 +850,7 @@ nav {
 }
 
 .faq_quest.active::after {
-  background-image: url(../images/icon-up.png);
+  background-image: url(images/icon-up.png);
 }
 
 .contact {

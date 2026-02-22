@@ -1,4 +1,5 @@
 import React from "react";
+import background2 from "../assets/images/background2.jpg";
 
 export default function About() {
   return (
@@ -15,7 +16,7 @@ export default function About() {
       <div className="about_bg">
         <img
           className="w-100"
-          src="./images/background2.jpg"
+          src={background2} 
           alt="POINT"
           title="POINT"
         />

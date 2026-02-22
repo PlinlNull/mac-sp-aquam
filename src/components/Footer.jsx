@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logo.png";
 
 export default function TenCuaComponent() {
   return (
@@ -7,7 +8,7 @@ export default function TenCuaComponent() {
         <div className="ftrow">
           <div className="ftlogo">
             <div className="ftlogo_item">
-              <img src="./images/logo.png" alt="MAC SP" title="MAC SP" />
+              <img src={logo} alt="MAC SP" title="MAC SP" />
             </div>
           </div>
           <div className="ftinfo">
